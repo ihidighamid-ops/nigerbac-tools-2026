@@ -1,5 +1,5 @@
 // app.js - NigerBac Tools 2026 - VERSION DÉFINITIVE
-require('dotenv').config();
+
 const express = require('express');
 const session = require('express-session');
 const path = require('path');
