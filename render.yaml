@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: nigerbac-tools-2026
+    env: node
+    buildCommand: npm install
+    startCommand: node app.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_KEY
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true

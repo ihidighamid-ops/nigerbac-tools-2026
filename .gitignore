@@ -1,0 +1,8 @@
+node_modules/
+.env
+public/uploads/
+public/recus/
+public/flamme/
+*.db
+*.log
+.DS_Store
